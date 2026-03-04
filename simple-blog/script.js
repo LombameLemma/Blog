@@ -5,7 +5,6 @@ async function loadPosts() {
     document.body.innerHTML += `<h2>${post.title}</h2><p>${post.content}</p><hr>`;
   });
 }
-////
 async function addPost() {
   const title = prompt("Post title:");
   const content = prompt("Post content:");
